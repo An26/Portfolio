@@ -6,48 +6,55 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <!-- Yeti Theme -->
-      <link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.min.css" alt="bootwatch Yeti">
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- my own local CSS page  -->
+      <link rel="stylesheet" type="text/css" href="style.css">
    </head>
+
    <body>
-      <nav>
-         <div class="jumbotron">
-            <h1>hello, i'm an</h1>
-            <br>
-            <ul class="nav navbar-nav navbar-right">
-               <li><a href="index.html">AN HUYNH</a></li>
-               <li><a href="portfolio.html">PORTFOLIO</a></li>
-               <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-         </div>
-      </nav>
+   <nav class="navbar navbar-default">
+      <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+         <a class="navbar-brand" href="#">An Huynh</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="index.html">About Me</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </div><!-- /.navbar-collapse -->   
+   </nav>
+
       <div class="wrapper main-section">
-         <div class="panel panel-default col-md-9">
-            <div class="panel-heading">About Me</div>
+         <div class="panel panel-default about-me col-md-8">
+            <div class="panel-heading aboutme-heading">About Me</div>
             <div class="panel-body">
                <a href="#" class="thumbnail col-md-3">
                <img src="https://scontent-dft4-1.xx.fbcdn.net/v/t1.0-9/12507453_10208467507150033_7051158278100691592_n.jpg?oh=5b1774e18111a54236599c6fd6a1d31c&oe=58176A76" alt="profile pic">
                </a>
-               <p>After recieving my Bachlor's degree I went directly into social work. I was in this field for about about 3.5 years, but found that it was time to follow one of my dreams and turn my hobby into a career. On a core and fundamental level, I realized that I love to help people.</p>
-                  <br>
-               <p>So, I found another way to help people through creating and streamlining websites. Web development was the perfect marriage of my hobbies, interests, and goals that allowed me to stay motivated by helping people. Months later, I found myself at the UT Bootcamp. Within 6 months I was a certfied Full-Stack Developer harnessing skills that allowed me to create this website. Thank you for visitng my page and playing a role in my career change </p>
+               <p>Hello and welcome! An here, prononced as Ann but with less uncessary letters. While Huynh is pronounced like "hWIN" as in "all i do is hwin, hwin, hwin."And if my name doesn't impress you already...I graduated from college with my Bachlor's degree and went straight into social work for 3.5 years. After learning so much in this field I thought it was time to learn a new skills. If I'm not working, you can find me sewing, volunteering, hiking or playing pool.</p>
+               
+               <p>While social work gave me experience working with people, strengthened my communication skills, and prioritizing needs in a professional manner; coding allows me to create in an open-sourced and collaborative field.</p>
             </div>
          </div>
-         <div class="panel panel-default col-md-3">
-            <div class="panel-heading">
+         <div class="panel panel-default connect col-md-3">
+            <div class="panel-heading connect-heading">
                <h3 class="panel-title">Connect With Me</h3>
             </div>
-            <div class="panel-body">
-               <a href="#"><img class="connect-with-me-icons" src="assets/images/github-negative.png" alt="github"></a>
-               <a href="#"><img class="connect-with-me-icons" src="assets/images/linkedin-negative.png" alt="linkedin"></a>
-               <a href="#"><img class="connect-with-me-icons" src="assets/images/stackoverflow-negative.png" alt="stackoverflow"></a>
+            <div class="panel-body connect-icons">
+               <a href="#"><img id="github-icon" class="connect-with-me-icons" src="assets/images/github-negative.png" alt="github"></a>
+               <a href="#"><img id="linkedin-icon" class="connect-with-me-icons " src="assets/images/linkedin-negative.png" alt="linkedin"></a>
+               <a href="#"><img id="stackoverflow-icon" class="connect-with-me-icons" src="assets/images/stackoverflow-negative.png" alt="stackoverflow"></a>
             </div>
          </div>
       </div>
+
       <div class="well well-lg col-md-12">
          <footer>&copy;Copyright 2016 An Huynh</footer>
       </div>
+      
    </body>
 </html>
