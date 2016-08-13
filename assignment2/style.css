@@ -101,6 +101,13 @@ nav .navbar .navbar-default {
 /*------------------------------------------*/
 .portfolio{
 	background-color: white;
+	 /*column-count: 2;*/
+	 row-count: 3;
+	 padding: 30px;
+}
+
+.caption{
+	background: red;
 }
 
 /*--------------------------------------*/
@@ -127,11 +134,11 @@ fieldset label{
 }
 
 .btn-default:hover{
-	background: #393F44;
+	background: #666;
 	color: white;
 }
 
 .btn-primary:hover{
-	background: #393F44;
+	background: #666;
 }
 
